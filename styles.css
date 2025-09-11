@@ -17,7 +17,7 @@ font-size: 26px ;
 color: (204, 20, 232, 0.725 );
 }
 
-section {
+.chamada{
 background: rgb(11, 219, 108);
 padding-bottom: 80px;
 padding-top: 80px;
@@ -40,3 +40,13 @@ p {
 img {
     height: 200px;
 }
+  
+.categoria-videos {
+    display:flex;
+    overflow-x:auto;
+    gap: 10px;
+}
+ .categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
